@@ -4,4 +4,4 @@ spring:
   rabbitmq:
     host: 39.97.175.206
     port: 5672
-env: dev1
+env: dev2
