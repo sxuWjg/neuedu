@@ -19,19 +19,4 @@ spring:
 mybatis:
   mapper-locations: classpath*:com/neuedu/mapper/*Mapper.xml
   config-location: classpath:mybatis-config.xml
-redis:
-  maxTotal: 8
-  maxIdle: 8
-  minIdle: 0
-  blockWhenExhausted: true
-  maxWaitMillis: 10000
-  testOnBorrow: true
-  testOnReturn: true
-  jmxEnabled: true
-  redisHost: 39.97.175.206
-  redisPort: 6379
-  redisPassword: root
-  timeout: 1000
-  
-resetpassword:
-  timeout: 60
+
