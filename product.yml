@@ -16,3 +16,6 @@ spring:
   rabbitmq:
     host: 39.97.175.206
     port: 5672
+mybatis:
+  mapper-locations: classpath*:com/neuedu/mapper/*Mapper.xml
+  config-location: classpath:mybatis-config.xml
