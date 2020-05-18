@@ -1,7 +1,2 @@
-server:
-  port: 9000
-spring:
-  rabbitmq:
-    host: 39.97.175.206
-    port: 5672
-env: prod
+
+
